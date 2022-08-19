@@ -8,10 +8,11 @@
     "watch": "webpack --watch --mode development"
   },
   "files": [
-    "build"
+    "dist",
+    "types.d.ts"
   ],
   "keywords": [],
-  "author": "",
+  "author": "Volizik",
   "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.18.10",
