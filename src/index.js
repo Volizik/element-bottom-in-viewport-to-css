@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-export const useElementBottomInViewPortToCss = ({
+const useElementBottomInViewPortToCss = ({
     elementId,
     cssVariable,
 }) => {
@@ -32,3 +32,5 @@ export const useElementBottomInViewPortToCss = ({
         };
     }, [elementId, cssVariable]);
 };
+
+export default useElementBottomInViewPortToCss;
